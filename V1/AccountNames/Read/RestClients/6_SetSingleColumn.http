@@ -1,0 +1,1 @@
+GET http://localhost:3000/V1/AccountNames/Read/SetSingleColumn/{Column name}

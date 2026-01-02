@@ -1,0 +1,31 @@
+{
+    "tableName": "AccountNames",
+    "columns": [
+        {
+            "field": "AccountName",
+            "title": "Account Name",
+            "isInput": true,
+            "filterControl": "select",
+            "autoFocus": true,
+            "isAutoFocus": true
+        },
+        {
+            "field": "Mobile",
+            "title": "Mobile",
+            "type": "number",
+            "isNumber": true,
+            "filterControl": "select",
+            "showRupee": false
+        }
+    ],
+    "data": [],
+    "Vertical": [],
+    "NonSecured": {
+        "SubRoutes": [
+            "Read",
+            "Insert",
+            "Delete",
+            "Alter"
+        ]
+    }
+}
