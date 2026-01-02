@@ -9,10 +9,12 @@ var port = normalizePort(process.env.PORT || 3000);
 
 import { StartFunc as StartFuncFromWebSocketServer } from "./Projects/WebSocketServer/V2/entryFile.js";
 import { router as routerFromV1 } from "./V1/routes.js";
+import { router as routerFromV2 } from "./V2/routes.js";
 
 app.use(express.static('Public'));
 app.use(cookieParser());
 app.use("/V1", routerFromV1);
+app.use("/V2", routerFromV2);
 
 StartFuncFromWebSocketServer(server);
 
