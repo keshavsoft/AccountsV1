@@ -3,6 +3,7 @@
         "AccountNames",
         "TokenTable",
         "UsersTable",
-        "JournalsTable"
+        "JournalsTable",
+        "Openings"
     ]
 }

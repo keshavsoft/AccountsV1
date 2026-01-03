@@ -1,6 +1,7 @@
 {
     "Tables": [
         "AccountNames",
-        "JournalsTable"
+        "JournalsTable",
+        "Openings"
     ]
 }

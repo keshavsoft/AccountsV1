@@ -27,5 +27,13 @@
             "Delete",
             "Alter"
         ]
+    },
+    "Secured": {
+        "SubRoutes": [
+            "Read",
+            "Insert",
+            "Delete",
+            "Alter"
+        ]
     }
 }

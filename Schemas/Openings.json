@@ -1,0 +1,73 @@
+{
+    "tableName": "Openings",
+    "columns": [
+        {
+            "field": "AccountName",
+            "title": "Account Name",
+            "isInput": false,
+            "filterControl": "select",
+            "autoFocus": true,
+            "isAutoFocus": true,
+            "isDataList": true
+        },
+        {
+            "field": "Description",
+            "title": "Description",
+            "isInput": true
+        },
+        {
+            "field": "Credit",
+            "title": "Credit",
+            "type": "number",
+            "isNumber": true,
+            "filterControl": "select",
+            "showRupee": true,
+            "numberConfig": {
+                "step": "0.01",
+                "min": "0",
+                "max": "999999999"
+            },
+            "footerFormatter": "TotalFormatter",
+            "ShowTotal": true,
+            "ShowDifference": true,
+            "align": "right",
+            "minusColumn": "Debit"
+        },
+        {
+            "field": "Debit",
+            "title": "Debit",
+            "type": "number",
+            "isNumber": true,
+            "filterControl": "select",
+            "showRupee": true,
+            "numberConfig": {
+                "step": "0.01",
+                "min": "0",
+                "max": "999999999"
+            },
+            "footerFormatter": "TotalFormatter",
+            "ShowTotal": true,
+            "ShowDifference": true,
+            "align": "right",
+            "minusColumn": "Credit"
+        }
+    ],
+    "data": [],
+    "Vertical": [],
+    "NonSecured": {
+        "SubRoutes": [
+            "Read",
+            "Insert",
+            "Delete",
+            "Alter"
+        ]
+    },
+    "Secured": {
+        "SubRoutes": [
+            "Read",
+            "Insert",
+            "Delete",
+            "Alter"
+        ]
+    }
+}
