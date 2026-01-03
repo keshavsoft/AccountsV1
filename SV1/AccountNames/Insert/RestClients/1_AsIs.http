@@ -1,0 +1,7 @@
+POST http://localhost:3000/SV1/AccountNames/Insert/AsIs
+Content-Type: application/json
+
+{
+  "AccountName": "",
+  "Mobile": ""
+}

@@ -1,5 +1,8 @@
 {
     "Tables": [
-        "AccountNames"
+        "AccountNames",
+        "TokenTable",
+        "UsersTable",
+        "JournalsTable"
     ]
 }
